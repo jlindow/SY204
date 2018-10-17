@@ -1,6 +1,11 @@
-/*   myCat Program  */
-/* MIDN 3/C Lindow */
-/*      SY204     */
+/* 
+   Author: MIDN Jacob Lindow
+          "myCat"
+    This program functions
+   in the same manner as the 
+  standard terminal cat command
+  
+*/ 
 
 #include <stdio.h>
 #include <ctype.h>
