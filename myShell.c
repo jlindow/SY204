@@ -1,8 +1,7 @@
 /* 
     Name: MIDN 3/C Lindow
     Alpha: 203618
-    
-    Source: The majority of this code was written by the SY204 instructors at USNA.
+   
 */
 
 #include <stdio.h>
