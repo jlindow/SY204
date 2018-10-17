@@ -1,4 +1,13 @@
-/* Attempt #2 at myEcho */
+/* 
+    Author: MIDN Jacob Lindow
+         "my Echo" 
+         
+    This program functions
+   similar to the standard 
+   terminal command 'echo'
+   and will echo user input
+   
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -8,22 +17,16 @@
 
 int main(int argc, char * argv[])
 {
- int size; 
- int i;
- int errno;
-
-
- // int size = strlen(argv[1]);
+ 
+ int i = 0;
+ int errno = 0;
   
   for(i = 1; i < argc; i++)
   {
 
-    size = strlen(argv[i]);
-
-
     if(i == (argc - 1))
     {
-      if( write(STDOUT_FILENO, argv[i], size) == -1){
+      if( write(STDOUT_FILENO, argv[i], strlen(argv[i])) == -1){
          perror("Error Occured: ");
          break;
         }
