@@ -1,10 +1,13 @@
-// This is a sample program that sets up a socket as a client
-// It does not perform error checking!
-// Professor De Bels
-// SY204
-// This program takes two arguments:
-//      1. IP Address
-//      2. Port Number
+/* 
+   Author: MIDN Jacob A. Lindow
+ 
+   This is a sample program that sets up a socket as a client
+   It does not perform error checking!
+
+   This program takes two arguments:
+      1. IP Address
+      2. Port Number
+*/
 
 #include <stdio.h>
 #include <sys/types.h>
